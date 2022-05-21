@@ -17,7 +17,9 @@ class Picture2Activity : AppCompatActivity() {
             var intent=Intent(this,Picture3Activity::class.java)
             startActivity(intent)
         }
+        btnNext2.setOnClickListener {
         var intent=Intent(this,Picture3Activity::class.java)
         startActivity(intent)
+    }
     }
 }
